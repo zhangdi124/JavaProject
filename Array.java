@@ -18,18 +18,23 @@ public class ArrayTraversal {
 			}
 			
 	}
-		public static void main(String[] args) {
-			int size = 5;
+			public static void main(String[] args) {
+			
+			int size = 50;
 			double[] a = new double[size]; //array of doubles
 			
-			a[0] = 1; 
-			a[1] = 2; 
-			a[2] = 3; 
-			a[3] ++;
-			a[4] -= 60;
+			for(int i = 0; i < size; ++i){
+				double value = Math.random() * 100.0;
+				a[i] = value;
+			}
+
 			
-			ArrayTraversal arrayTraversal = new ArrayTraversal();
-			arrayTraversal.powArray(a);
+			powArray(a);
+		}
+
+
+			
+			powArray(a);
 		}
 
 	}
