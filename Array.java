@@ -33,10 +33,8 @@ public class ArrayTraversal {
 		}
 
 
-			
-			powArray(a);
-		}
 
-	}
+			
+		}
 
 
